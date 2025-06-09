@@ -1,0 +1,33 @@
+services:
+  infracontainer:
+    container_name: supah_infracontainer
+  
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    environment:
+      - SHELL=/bin/bash
+
+    ports:
+      - "8080:8080"
+      - "54321:54321"
+      - "54322:54322"
+      - "54323:54323"
+      - "54324:54324"
+
+    volumes:
+      - infracontainer_data:/var/lib/docker
+
+    networks:
+      - network
+
+    tty: true
+    privileged: true
+    stdin_open: true
+
+volumes:
+  infracontainer_data:
+
+networks:
+  network:
