@@ -5,6 +5,7 @@ Just the place where I put supa stuff.
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Boilerplate](#boilerplate)
 - [Resources](#resources)
 - [License](#license)
 
@@ -38,6 +39,15 @@ pnpx supabase start
 ```
 
 And then you're ready to go!
+
+## Boilerplate
+If you need to bootstrap a new project from these, I've added a `boilerplate.sh` that you can use for this purpose.
+```bash
+./boilerplate.sh
+```
+
+In this project you have a perfectly bootstrapped local development environment in which you can add other services to communicate easily with Supabase.
+It's something that it's often overlooked and can take some time if needed.
 
 ## Resources
 - Supabase: https://supabase.com/
