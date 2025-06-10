@@ -7,6 +7,8 @@ Just the place where I put supa stuff.
 - [Usage](#usage)
 - [Boilerplate](#boilerplate)
 - [Resources](#resources)
+- [Contributing](#contributing)
+- [Support](#support)
 - [License](#license)
 
 ## Prerequisites
@@ -53,5 +55,20 @@ It's something that it's often overlooked and can take some time if needed.
 - Supabase: https://supabase.com/
 - Docker: https://docker.com
 
+## Contributing
+Contributions and suggestions about how to improve this project are welcome!
+Please follow [our contribution guidelines](https://github.com/airscripts/supah/blob/main/CONTRIBUTING.md).
+
+## Support
+If you want to support my work you can do it by following me, leaving a star, sharing my projects or also donating at the links below.  
+Choose what you find more suitable for you:  
+
+<a href="https://sponsor.airscript.it" target="blank">
+  <img src="https://raw.githubusercontent.com/airscripts/assets/main/images/github-sponsors.svg" alt="GitHub Sponsors" width="30px" />
+</a>&nbsp;
+<a href="https://kofi.airscript.it" target="blank">
+  <img src="https://raw.githubusercontent.com/airscripts/assets/main/images/kofi.svg" alt="Kofi" width="30px" />
+</a>
+
 ## License  
-This repository is not licensed and is closed source.
+This repository is licensed under [MIT License](https://github.com/airscripts/supah/blob/main/LICENSE).
